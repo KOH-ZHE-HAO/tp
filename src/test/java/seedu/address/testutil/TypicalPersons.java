@@ -37,13 +37,17 @@ public class TypicalPersons {
             .build();
     public static final Person CARL = new PersonBuilder().withName("Carl Kurz").withPhone("95352563")
             .withEmail("heinz@example.com").withAddress("wall street").withRemark("abcd").build();
-    public static final Person DANIEL = new PersonBuilder().withRemark("abcd").withName("Daniel Meier").withPhone("87652533")
+    public static final Person DANIEL = new PersonBuilder().withRemark("abcd").withName("Daniel Meier")
+            .withPhone("87652533")
             .withEmail("cornelia@example.com").withAddress("10th street").withTags("friends").build();
-    public static final Person ELLE = new PersonBuilder().withRemark("abcd").withName("Elle Meyer").withPhone("9482224")
+    public static final Person ELLE = new PersonBuilder().withRemark("abcd").withName("Elle Meyer")
+            .withPhone("9482224")
             .withEmail("werner@example.com").withAddress("michegan ave").build();
-    public static final Person FIONA = new PersonBuilder().withRemark("abcd").withName("Fiona Kunz").withPhone("9482427")
+    public static final Person FIONA = new PersonBuilder().withRemark("abcd").withName("Fiona Kunz")
+            .withPhone("9482427")
             .withEmail("lydia@example.com").withAddress("little tokyo").build();
-    public static final Person GEORGE = new PersonBuilder().withRemark("abcd").withName("George Best").withPhone("9482442")
+    public static final Person GEORGE = new PersonBuilder().withRemark("abcd").withName("George Best")
+            .withPhone("9482442")
             .withEmail("anna@example.com").withAddress("4th street").build();
 
     // Manually added
@@ -53,9 +57,11 @@ public class TypicalPersons {
             .withEmail("hans@example.com").withAddress("chicago ave").build();
 
     // Manually added - Person's details found in {@code CommandTestUtil}
-    public static final Person AMY = new PersonBuilder().withRemark("abcd").withName(VALID_NAME_AMY).withPhone(VALID_PHONE_AMY)
+    public static final Person AMY = new PersonBuilder().withRemark("abcd").withName(VALID_NAME_AMY)
+            .withPhone(VALID_PHONE_AMY)
             .withEmail(VALID_EMAIL_AMY).withAddress(VALID_ADDRESS_AMY).withTags(VALID_TAG_FRIEND).build();
-    public static final Person BOB = new PersonBuilder().withRemark("abcd").withName(VALID_NAME_BOB).withPhone(VALID_PHONE_BOB)
+    public static final Person BOB = new PersonBuilder().withRemark("abcd").withName(VALID_NAME_BOB)
+            .withPhone(VALID_PHONE_BOB)
             .withEmail(VALID_EMAIL_BOB).withAddress(VALID_ADDRESS_BOB).withTags(VALID_TAG_HUSBAND, VALID_TAG_FRIEND)
             .build();
 
