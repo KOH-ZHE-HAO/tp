@@ -37,7 +37,7 @@ public class CommandTestUtil {
     public static final String VALID_TAG_HUSBAND = "husband";
     public static final String VALID_TAG_FRIEND = "friend";
     public static final String VALID_REMARK_AMY = "abc";
-    public static final String VALID_REMARK_BOB = "abc";
+    public static final String VALID_REMARK_BOB = "abcd";
 
 
 
